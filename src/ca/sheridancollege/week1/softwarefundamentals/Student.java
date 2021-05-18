@@ -9,6 +9,15 @@ public class Student
 {
     private String name;
     private String studentID;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public Student(String givenName, String givenID)
     {
